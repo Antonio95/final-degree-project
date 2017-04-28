@@ -1,8 +1,8 @@
-
-models/*
-MNIST_data/*
-tensorboard_logs/*
-tfslim_logs/*
+tensorflow_mnist/results/*
+tensorflow_mnist/models/*
+tensorflow_mnist/MNIST_data/*
+tensorflow_mnist/tensorboard_logs/*
+tensorflow_mnist/tfslim_logs/*
 
 tuner_script.sh
 

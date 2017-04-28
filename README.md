@@ -40,7 +40,7 @@ This block also includes a module called *Datasets* which can be used independen
 
 **MNIST** (tensorflow_mnist):
 
-This block trains various convolutional neural networks, performing a grid search over their hyperparameters. The file *architectures.py* defines the various networks (using [TFSlim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim)) and saves the results of the search as well as the trained models. Again, the parameters and paths are defined in a *settings.py* file.
+This block trains various convolutional neural networks, performing a grid search over their hyperparameters. The file *architectures.py* defines the various networks (using [TFSlim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim)) and saves the results of the search as well as the trained models. Again, the parameters and paths are defined in a *settings.py* file. Some previously calculated results and models are stored as well.
 
 In order to perform the grid search, tune the settings file and run:
 
