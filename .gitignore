@@ -1,0 +1,10 @@
+
+models/*
+MNIST_data/*
+tensorboard_logs/*
+tfslim_logs/*
+
+tuner_script.sh
+
+*.pyc
+.idea
