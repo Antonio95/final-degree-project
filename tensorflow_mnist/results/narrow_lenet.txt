@@ -1,0 +1,51 @@
+********************************************************************************
+********************************************************************************
+Training lenet. Sweeping hyperparameters:
+   regularisation lambda: 0.0001, 0.0004, 0.0007, 0.001, 0.004, 0.007, 0.01
+   dropout keep rates: = 0.5
+Launched: 21 February, 13:45
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0001, k = 0.5
+    Elapsed time: 5.2e+02 seconds. Average time per step: 0.052 seconds.
+    Validation accuracy: 98.20%
+    Model saved successfully as narrow_lenet_0
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 5.3e+02 seconds. Average time per step: 0.053 seconds.
+    Validation accuracy: 98.38%
+    Model saved successfully as narrow_lenet_1
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0007, k = 0.5
+    Elapsed time: 5.3e+02 seconds. Average time per step: 0.053 seconds.
+    Validation accuracy: 98.20%
+    Model saved successfully as narrow_lenet_2
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.5
+    Elapsed time: 5.3e+02 seconds. Average time per step: 0.053 seconds.
+    Validation accuracy: 98.12%
+    Model saved successfully as narrow_lenet_3
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.004, k = 0.5
+    Elapsed time: 5.2e+02 seconds. Average time per step: 0.052 seconds.
+    Validation accuracy: 98.12%
+    Model saved successfully as narrow_lenet_4
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.007, k = 0.5
+    Elapsed time: 5.7e+02 seconds. Average time per step: 0.057 seconds.
+    Validation accuracy: 97.80%
+    Model saved successfully as narrow_lenet_5
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.5
+    Elapsed time: 5.6e+02 seconds. Average time per step: 0.056 seconds.
+    Validation accuracy: 97.68%
+    Model saved successfully as narrow_lenet_6
+
+Finished: 21 February, 14:48
+Best model: narrow_lenet_1 (l = 0.0004, k = 0.5). Validation accuracy: 98.38%

@@ -2,7 +2,7 @@
 
 This repository contains the source code for my degree thesis: *Modern Tools for Neural Networks: Google's TensorFlow Library*.
 
-If you are interested in the report, knowing how the files work or just about anything else, feel free to contact me at: **anmegi.95@gmail.com**
+If you are interested in the report, knowing how the files work or just about anything else, feel free to contact me at: anmegi.95@gmail.com
 
 
 ## Requirements
@@ -18,11 +18,11 @@ tensorflow==0.12.0
 
 The project is organised in two blocks: **Iris** and **MNIST**
 
-* **Iris** (tensorflow_iris):
+**Iris** (tensorflow_iris):
 
-This block essentially trains a deep ffnn on the simple Iris problem, and logs information which can be later visualised with TensorBoard (such as learning curves or the TensorFlow graph). Most of the parameters (including the number of layers and units in each) are defined in a separate file, *settings.py*.
+This block essentially trains a deep FFNN on the simple Iris problem, and logs information which can be later visualised with TensorBoard (such as learning curves or the TensorFlow graph). Most of the parameters (including the number of layers and units in each) are defined in a separate file, *settings.py*.
 
-In order to execute the program, simply modify the settings file according to your needs and run
+In order to execute the program, simply modify the settings file according to your needs and run:
 
 ```
 python network_in_one.py
@@ -36,9 +36,9 @@ tensorboard --logdir=<path_to_tensorboard_logs>
 
 and opening a web browser to **localhost:6006**. For further information, refer to the [TensorBoard documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tensorboard/README.md)
 
-Tere is a module inside this block called *Datasets* which can be used independently from the rest of the project. It allows for the loading, mixing and normalisation of datasets, among other features.
+This block also includes a module called *Datasets* which can be used independently from the rest of the project. It allows for the loading, mixing and normalisation of datasets, among other features.
 
-* **MNIST** (tensorflow_mnist):
+**MNIST** (tensorflow_mnist):
 
 This block trains various convolutional neural networks, performing a grid search over their hyperparameters. The file *architectures.py* defines the various networks (using [TFSlim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim)) and saves the results of the search as well as the trained models. Again, the parameters and paths are defined in a *settings.py* file.
 

@@ -1,0 +1,39 @@
+********************************************************************************
+********************************************************************************
+Training vishnet. Sweeping hyperparameters:
+   regularisation lambda: 3e-07, 1e-06, 3e-06, 1e-05, 3e-05
+   dropout keep rates: = 0.5
+Launched: 18 February, 20:06
+
+********************************************************************************
+    Trained vishnet for 10000 iterations, l = 3e-07, k = 0.5
+    Elapsed time: 1.8e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 79.52%
+    Model saved successfully as final_vishnet_05_0
+
+********************************************************************************
+    Trained vishnet for 10000 iterations, l = 1e-06, k = 0.5
+    Elapsed time: 1.8e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 67.78%
+    Model saved successfully as final_vishnet_05_1
+
+********************************************************************************
+    Trained vishnet for 10000 iterations, l = 3e-06, k = 0.5
+    Elapsed time: 1.8e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 77.50%
+    Model saved successfully as final_vishnet_05_2
+
+********************************************************************************
+    Trained vishnet for 10000 iterations, l = 1e-05, k = 0.5
+    Elapsed time: 1.8e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 99.22%
+    Model saved successfully as final_vishnet_05_3
+
+********************************************************************************
+    Trained vishnet for 10000 iterations, l = 3e-05, k = 0.5
+    Elapsed time: 1.8e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 50.94%
+    Model saved successfully as final_vishnet_05_4
+
+Finished: 19 February, 20:52
+Best model: final_vishnet_05_3 (l = 1e-05, k = 0.5). Validation accuracy: 99.22%

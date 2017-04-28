@@ -1,0 +1,219 @@
+********************************************************************************
+********************************************************************************
+Training lenet. Sweeping hyperparameters:
+   regularisation lambda: 0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1.0
+   dropout keep rates: = 0.25, 0.4, 0.5, 0.6, 0.75
+Launched: 18 February, 19:55
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.25
+    Elapsed time: 5.7e+02 seconds. Average time per step: 0.057 seconds.
+    Validation accuracy: 98.46%
+    Model saved successfully as broad_lenet_0
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.4
+    Elapsed time: 5.9e+02 seconds. Average time per step: 0.059 seconds.
+    Validation accuracy: 98.50%
+    Model saved successfully as broad_lenet_1
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.5
+    Elapsed time: 5.9e+02 seconds. Average time per step: 0.059 seconds.
+    Validation accuracy: 97.96%
+    Model saved successfully as broad_lenet_2
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.6
+    Elapsed time: 6.1e+02 seconds. Average time per step: 0.061 seconds.
+    Validation accuracy: 98.42%
+    Model saved successfully as broad_lenet_3
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.001, k = 0.75
+    Elapsed time: 5.9e+02 seconds. Average time per step: 0.059 seconds.
+    Validation accuracy: 98.04%
+    Model saved successfully as broad_lenet_4
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.005, k = 0.25
+    Elapsed time: 6.2e+02 seconds. Average time per step: 0.062 seconds.
+    Validation accuracy: 97.96%
+    Model saved successfully as broad_lenet_5
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.005, k = 0.4
+    Elapsed time: 6e+02 seconds. Average time per step: 0.06 seconds.
+    Validation accuracy: 97.92%
+    Model saved successfully as broad_lenet_6
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.005, k = 0.5
+    Elapsed time: 6.1e+02 seconds. Average time per step: 0.061 seconds.
+    Validation accuracy: 98.04%
+    Model saved successfully as broad_lenet_7
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.005, k = 0.6
+    Elapsed time: 6e+02 seconds. Average time per step: 0.06 seconds.
+    Validation accuracy: 97.98%
+    Model saved successfully as broad_lenet_8
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.005, k = 0.75
+    Elapsed time: 6.1e+02 seconds. Average time per step: 0.061 seconds.
+    Validation accuracy: 97.96%
+    Model saved successfully as broad_lenet_9
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.25
+    Elapsed time: 6.1e+02 seconds. Average time per step: 0.061 seconds.
+    Validation accuracy: 97.94%
+    Model saved successfully as broad_lenet_10
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.4
+    Elapsed time: 6.4e+02 seconds. Average time per step: 0.064 seconds.
+    Validation accuracy: 97.66%
+    Model saved successfully as broad_lenet_11
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.5
+    Elapsed time: 6.2e+02 seconds. Average time per step: 0.062 seconds.
+    Validation accuracy: 97.46%
+    Model saved successfully as broad_lenet_12
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.6
+    Elapsed time: 6.4e+02 seconds. Average time per step: 0.064 seconds.
+    Validation accuracy: 97.50%
+    Model saved successfully as broad_lenet_13
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.01, k = 0.75
+    Elapsed time: 6.3e+02 seconds. Average time per step: 0.063 seconds.
+    Validation accuracy: 97.66%
+    Model saved successfully as broad_lenet_14
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.05, k = 0.25
+    Elapsed time: 6.7e+02 seconds. Average time per step: 0.067 seconds.
+    Validation accuracy: 94.26%
+    Model saved successfully as broad_lenet_15
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.05, k = 0.4
+    Elapsed time: 6.6e+02 seconds. Average time per step: 0.066 seconds.
+    Validation accuracy: 94.38%
+    Model saved successfully as broad_lenet_16
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.05, k = 0.5
+    Elapsed time: 6.3e+02 seconds. Average time per step: 0.063 seconds.
+    Validation accuracy: 94.56%
+    Model saved successfully as broad_lenet_17
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.05, k = 0.6
+    Elapsed time: 6.8e+02 seconds. Average time per step: 0.068 seconds.
+    Validation accuracy: 94.90%
+    Model saved successfully as broad_lenet_18
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.05, k = 0.75
+    Elapsed time: 6.8e+02 seconds. Average time per step: 0.068 seconds.
+    Validation accuracy: 94.56%
+    Model saved successfully as broad_lenet_19
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.1, k = 0.25
+    Elapsed time: 6.6e+02 seconds. Average time per step: 0.066 seconds.
+    Validation accuracy: 89.60%
+    Model saved successfully as broad_lenet_20
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.1, k = 0.4
+    Elapsed time: 6.6e+02 seconds. Average time per step: 0.066 seconds.
+    Validation accuracy: 89.36%
+    Model saved successfully as broad_lenet_21
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.1, k = 0.5
+    Elapsed time: 6.3e+02 seconds. Average time per step: 0.063 seconds.
+    Validation accuracy: 89.88%
+    Model saved successfully as broad_lenet_22
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.1, k = 0.6
+    Elapsed time: 6.6e+02 seconds. Average time per step: 0.066 seconds.
+    Validation accuracy: 90.00%
+    Model saved successfully as broad_lenet_23
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.1, k = 0.75
+    Elapsed time: 6.7e+02 seconds. Average time per step: 0.067 seconds.
+    Validation accuracy: 89.92%
+    Model saved successfully as broad_lenet_24
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.5, k = 0.25
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_25
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.5, k = 0.4
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_26
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.5, k = 0.5
+    Elapsed time: 1.2e+03 seconds. Average time per step: 0.12 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_27
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.5, k = 0.6
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_28
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.5, k = 0.75
+    Elapsed time: 1.2e+03 seconds. Average time per step: 0.12 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_29
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 1.0, k = 0.25
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_30
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 1.0, k = 0.4
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_31
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 1.0, k = 0.5
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_32
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 1.0, k = 0.6
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_33
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 1.0, k = 0.75
+    Elapsed time: 1.1e+03 seconds. Average time per step: 0.11 seconds.
+    Validation accuracy: 11.26%
+    Model saved successfully as broad_lenet_34
+
+Finished: 19 February, 03:27
+Best model: broad_lenet_1 (l = 0.001, k = 0.4). Validation accuracy: 98.50%

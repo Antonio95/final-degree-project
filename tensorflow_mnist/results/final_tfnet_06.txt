@@ -1,0 +1,39 @@
+********************************************************************************
+********************************************************************************
+Training tfnet. Sweeping hyperparameters:
+   regularisation lambda: 5e-06, 8e-06, 1e-05, 2e-05, 5e-05
+   dropout keep rates: = 0.6
+Launched: 18 February, 20:02
+
+********************************************************************************
+    Trained tfnet for 10000 iterations, l = 5e-06, k = 0.6
+    Elapsed time: 4.3e+03 seconds. Average time per step: 0.43 seconds.
+    Validation accuracy: 99.16%
+    Model saved successfully as final_tfnet_06_0
+
+********************************************************************************
+    Trained tfnet for 10000 iterations, l = 8e-06, k = 0.6
+    Elapsed time: 4.5e+03 seconds. Average time per step: 0.45 seconds.
+    Validation accuracy: 99.06%
+    Model saved successfully as final_tfnet_06_1
+
+********************************************************************************
+    Trained tfnet for 10000 iterations, l = 1e-05, k = 0.6
+    Elapsed time: 4.7e+03 seconds. Average time per step: 0.47 seconds.
+    Validation accuracy: 98.96%
+    Model saved successfully as final_tfnet_06_2
+
+********************************************************************************
+    Trained tfnet for 10000 iterations, l = 2e-05, k = 0.6
+    Elapsed time: 4.9e+03 seconds. Average time per step: 0.49 seconds.
+    Validation accuracy: 99.30%
+    Model saved successfully as final_tfnet_06_3
+
+********************************************************************************
+    Trained tfnet for 10000 iterations, l = 5e-05, k = 0.6
+    Elapsed time: 5.1e+03 seconds. Average time per step: 0.51 seconds.
+    Validation accuracy: 99.16%
+    Model saved successfully as final_tfnet_06_4
+
+Finished: 19 February, 02:36
+Best model: final_tfnet_06_3 (l = 2e-05, k = 0.6). Validation accuracy: 99.30%
