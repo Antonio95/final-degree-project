@@ -1,0 +1,15 @@
+********************************************************************************
+********************************************************************************
+Training vishnet. Sweeping hyperparameters:
+   regularisation lambda: 1e-05
+   dropout keep rates: = 0.25
+Launched: 21 February, 15:14
+
+********************************************************************************
+    Trained vishnet for 15000 iterations, l = 1e-05, k = 0.25
+    Elapsed time: 2.6e+04 seconds. Average time per step: 1.7 seconds.
+    Validation accuracy: 99.28%
+    Model saved successfully as vishnet_0
+
+Finished: 21 February, 22:27
+Best model: vishnet_0 (l = 1e-05, k = 0.25). Validation accuracy: 99.28%

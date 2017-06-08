@@ -1,0 +1,15 @@
+********************************************************************************
+********************************************************************************
+Training vishnet. Sweeping hyperparameters:
+   regularisation lambda: 0.0004
+   dropout keep rates: = 0.5
+Launched: 21 February, 15:22
+
+********************************************************************************
+    Trained vishnet for 20000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 3.5e+04 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 81.04%
+    Model saved successfully as prueba_lenet_0
+
+Finished: 22 February, 01:13
+Best model: prueba_lenet_0 (l = 0.0004, k = 0.5). Validation accuracy: 81.04%

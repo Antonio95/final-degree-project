@@ -1,4 +1,3 @@
-tensorflow_mnist/results/*
 tensorflow_mnist/models/*
 tensorflow_mnist/MNIST_data/*
 tensorflow_mnist/tensorboard_logs/*

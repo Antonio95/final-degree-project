@@ -1,0 +1,15 @@
+********************************************************************************
+********************************************************************************
+Training tfnet. Sweeping hyperparameters:
+   regularisation lambda: 5e-06
+   dropout keep rates: = 0.75
+Launched: 21 February, 15:06
+
+********************************************************************************
+    Trained tfnet for 15000 iterations, l = 5e-06, k = 0.75
+    Elapsed time: 5.9e+03 seconds. Average time per step: 0.4 seconds.
+    Validation accuracy: 99.06%
+    Model saved successfully as tfnet_0
+
+Finished: 21 February, 16:45
+Best model: tfnet_0 (l = 5e-06, k = 0.75). Validation accuracy: 99.06%

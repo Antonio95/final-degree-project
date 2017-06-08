@@ -1,0 +1,33 @@
+********************************************************************************
+********************************************************************************
+Training tfnet. Sweeping hyperparameters:
+   regularisation lambda: 5e-05, 5e-05, 5e-05, 5e-05
+   dropout keep rates: = 0.4
+Launched: 15 May, 16:17
+
+********************************************************************************
+    Trained tfnet for 80000 iterations, l = 5e-05, k = 0.4
+    Elapsed time: 4e+04 seconds. Average time per step: 0.5 seconds.
+    Validation accuracy: 99.30%
+    Model saved successfully as tfnet_80000_0
+
+********************************************************************************
+    Trained tfnet for 80000 iterations, l = 5e-05, k = 0.4
+    Elapsed time: 3.9e+04 seconds. Average time per step: 0.48 seconds.
+    Validation accuracy: 99.32%
+    Model saved successfully as tfnet_80000_1
+
+********************************************************************************
+    Trained tfnet for 80000 iterations, l = 5e-05, k = 0.4
+    Elapsed time: 3.9e+04 seconds. Average time per step: 0.48 seconds.
+    Validation accuracy: 99.42%
+    Model saved successfully as tfnet_80000_2
+
+********************************************************************************
+    Trained tfnet for 80000 iterations, l = 5e-05, k = 0.4
+    Elapsed time: 4e+04 seconds. Average time per step: 0.49 seconds.
+    Validation accuracy: 99.24%
+    Model saved successfully as tfnet_80000_3
+
+Finished: 17 May, 11:51
+Best model: tfnet_80000_2 (l = 5e-05, k = 0.4). Validation accuracy: 99.42%

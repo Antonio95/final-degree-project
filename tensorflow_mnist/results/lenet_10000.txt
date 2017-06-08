@@ -1,0 +1,33 @@
+********************************************************************************
+********************************************************************************
+Training lenet. Sweeping hyperparameters:
+   regularisation lambda: 0.0004, 0.0004, 0.0004, 0.0004
+   dropout keep rates: = 0.5
+Launched: 28 April, 10:25
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 5e+03 seconds. Average time per step: 0.5 seconds.
+    Validation accuracy: 98.16%
+    Model saved successfully as lenet_10000_0
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 4.5e+03 seconds. Average time per step: 0.45 seconds.
+    Validation accuracy: 98.32%
+    Model saved successfully as lenet_10000_1
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 6.7e+03 seconds. Average time per step: 0.67 seconds.
+    Validation accuracy: 98.36%
+    Model saved successfully as lenet_10000_2
+
+********************************************************************************
+    Trained lenet for 10000 iterations, l = 0.0004, k = 0.5
+    Elapsed time: 5.8e+03 seconds. Average time per step: 0.58 seconds.
+    Validation accuracy: 98.22%
+    Model saved successfully as lenet_10000_3
+
+Finished: 28 April, 16:31
+Best model: lenet_10000_2 (l = 0.0004, k = 0.5). Validation accuracy: 98.36%

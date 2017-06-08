@@ -1,0 +1,159 @@
+********************************************************************************
+********************************************************************************
+Training mejnet. Sweeping hyperparameters:
+   regularisation lambda: 3e-06, 7e-06, 1e-05, 3e-05, 7e-05
+   dropout keep rates: = 0.25, 0.4, 0.5, 0.6, 0.75
+Launched: 04 March, 18:28
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-06, k = 0.25
+    Elapsed time: 3.3e+03 seconds. Average time per step: 0.33 seconds.
+    Validation accuracy: 87.72%
+    Model saved successfully as broad_mejnet_0
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-06, k = 0.4
+    Elapsed time: 2.8e+03 seconds. Average time per step: 0.28 seconds.
+    Validation accuracy: 97.14%
+    Model saved successfully as broad_mejnet_1
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-06, k = 0.5
+    Elapsed time: 2.5e+03 seconds. Average time per step: 0.25 seconds.
+    Validation accuracy: 97.44%
+    Model saved successfully as broad_mejnet_2
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-06, k = 0.6
+    Elapsed time: 2.4e+03 seconds. Average time per step: 0.24 seconds.
+    Validation accuracy: 97.52%
+    Model saved successfully as broad_mejnet_3
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-06, k = 0.75
+    Elapsed time: 2.4e+03 seconds. Average time per step: 0.24 seconds.
+    Validation accuracy: 97.30%
+    Model saved successfully as broad_mejnet_4
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-06, k = 0.25
+    Elapsed time: 2.4e+03 seconds. Average time per step: 0.24 seconds.
+    Validation accuracy: 96.66%
+    Model saved successfully as broad_mejnet_5
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-06, k = 0.4
+    Elapsed time: 2.5e+03 seconds. Average time per step: 0.25 seconds.
+    Validation accuracy: 97.30%
+    Model saved successfully as broad_mejnet_6
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-06, k = 0.5
+    Elapsed time: 2.4e+03 seconds. Average time per step: 0.24 seconds.
+    Validation accuracy: 97.36%
+    Model saved successfully as broad_mejnet_7
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-06, k = 0.6
+    Elapsed time: 2e+03 seconds. Average time per step: 0.2 seconds.
+    Validation accuracy: 97.58%
+    Model saved successfully as broad_mejnet_8
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-06, k = 0.75
+    Elapsed time: 1.8e+03 seconds. Average time per step: 0.18 seconds.
+    Validation accuracy: 97.62%
+    Model saved successfully as broad_mejnet_9
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 1e-05, k = 0.25
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 95.90%
+    Model saved successfully as broad_mejnet_10
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 1e-05, k = 0.4
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.16%
+    Model saved successfully as broad_mejnet_11
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 1e-05, k = 0.5
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.26%
+    Model saved successfully as broad_mejnet_12
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 1e-05, k = 0.6
+    Elapsed time: 1.8e+03 seconds. Average time per step: 0.18 seconds.
+    Validation accuracy: 97.62%
+    Model saved successfully as broad_mejnet_13
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 1e-05, k = 0.75
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.40%
+    Model saved successfully as broad_mejnet_14
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-05, k = 0.25
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 87.20%
+    Model saved successfully as broad_mejnet_15
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-05, k = 0.4
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 96.86%
+    Model saved successfully as broad_mejnet_16
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-05, k = 0.5
+    Elapsed time: 1.8e+03 seconds. Average time per step: 0.18 seconds.
+    Validation accuracy: 97.04%
+    Model saved successfully as broad_mejnet_17
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-05, k = 0.6
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.82%
+    Model saved successfully as broad_mejnet_18
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 3e-05, k = 0.75
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.98%
+    Model saved successfully as broad_mejnet_19
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-05, k = 0.25
+    Elapsed time: 1.8e+03 seconds. Average time per step: 0.18 seconds.
+    Validation accuracy: 96.26%
+    Model saved successfully as broad_mejnet_20
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-05, k = 0.4
+    Elapsed time: 1.8e+03 seconds. Average time per step: 0.18 seconds.
+    Validation accuracy: 97.14%
+    Model saved successfully as broad_mejnet_21
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-05, k = 0.5
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.48%
+    Model saved successfully as broad_mejnet_22
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-05, k = 0.6
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.68%
+    Model saved successfully as broad_mejnet_23
+
+********************************************************************************
+    Trained mejnet for 10000 iterations, l = 7e-05, k = 0.75
+    Elapsed time: 1.7e+03 seconds. Average time per step: 0.17 seconds.
+    Validation accuracy: 97.92%
+    Model saved successfully as broad_mejnet_24
+
+Finished: 05 March, 08:28
+Best model: broad_mejnet_19 (l = 3e-05, k = 0.75). Validation accuracy: 97.98%

@@ -1,0 +1,33 @@
+********************************************************************************
+********************************************************************************
+Training vishnet. Sweeping hyperparameters:
+   regularisation lambda: 5e-05, 5e-05, 5e-05, 5e-05
+   dropout keep rates: = 0.75
+Launched: 08 May, 15:30
+
+********************************************************************************
+    Trained vishnet for 5000 iterations, l = 5e-05, k = 0.75
+    Elapsed time: 1.3e+04 seconds. Average time per step: 2.6 seconds.
+    Validation accuracy: 98.98%
+    Model saved successfully as tfnet_5000_0
+
+********************************************************************************
+    Trained vishnet for 5000 iterations, l = 5e-05, k = 0.75
+    Elapsed time: 1.2e+04 seconds. Average time per step: 2.4 seconds.
+    Validation accuracy: 98.90%
+    Model saved successfully as tfnet_5000_1
+
+********************************************************************************
+    Trained vishnet for 5000 iterations, l = 5e-05, k = 0.75
+    Elapsed time: 1.2e+04 seconds. Average time per step: 2.4 seconds.
+    Validation accuracy: 98.82%
+    Model saved successfully as tfnet_5000_2
+
+********************************************************************************
+    Trained vishnet for 5000 iterations, l = 5e-05, k = 0.75
+    Elapsed time: 1.2e+04 seconds. Average time per step: 2.4 seconds.
+    Validation accuracy: 98.80%
+    Model saved successfully as tfnet_5000_3
+
+Finished: 09 May, 05:09
+Best model: tfnet_5000_0 (l = 5e-05, k = 0.75). Validation accuracy: 98.98%

@@ -1,0 +1,33 @@
+********************************************************************************
+********************************************************************************
+Training vishnet. Sweeping hyperparameters:
+   regularisation lambda: 3e-07, 3e-07, 3e-07, 3e-07
+   dropout keep rates: = 0.4
+Launched: 15 May, 05:45
+
+********************************************************************************
+    Trained vishnet for 60000 iterations, l = 3e-07, k = 0.4
+    Elapsed time: 1.1e+05 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 99.52%
+    Model saved successfully as vishnet_60000_0
+
+********************************************************************************
+    Trained vishnet for 60000 iterations, l = 3e-07, k = 0.4
+    Elapsed time: 1.1e+05 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 99.52%
+    Model saved successfully as vishnet_60000_1
+
+********************************************************************************
+    Trained vishnet for 60000 iterations, l = 3e-07, k = 0.4
+    Elapsed time: 1.1e+05 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 89.64%
+    Model saved successfully as vishnet_60000_2
+
+********************************************************************************
+    Trained vishnet for 60000 iterations, l = 3e-07, k = 0.4
+    Elapsed time: 1.1e+05 seconds. Average time per step: 1.8 seconds.
+    Validation accuracy: 89.74%
+    Model saved successfully as vishnet_60000_3
+
+Finished: 20 May, 04:18
+Best model: vishnet_60000_1 (l = 3e-07, k = 0.4). Validation accuracy: 99.52%
