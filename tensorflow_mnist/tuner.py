@@ -28,7 +28,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 # Own modules
 import settings as st
-from architectures import tfnet, lenet, vishnet, mejnet
+from architectures import tfnet, lenet, vishnet
 
 
 def create_model_dir(name):
@@ -106,11 +106,6 @@ with open(st.RESULTS_DIR + '/' + st.HYPER_ID + '.txt', 'w') as f:
                     batch = mnist.train.next_batch(st.BATCH_SIZE)
                     train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: k})
 
-                    if i % 100 == 0 and st.VERBOSE:
-                        print('   Test accuracy: {:.2%}%'.format(accuracy.eval(feed_dict={x: mnist.test.images,
-                                                                                          y_: mnist.test.labels,
-                                                                                          keep_prob: 1.})))
-
                     if (i + 1) % 1000 == 0:
                         print('   Step: ' + str(i + 1))
 
@@ -157,3 +152,4 @@ with open(st.RESULTS_DIR + '/' + st.HYPER_ID + '.txt', 'w') as f:
     pickle.dump(results, open(st.RESULTS_DIR + '/' + st.HYPER_ID + '.p', 'wb'))
 
     f.write(res)
+

@@ -173,7 +173,7 @@ class Dataset:
 
         :param: method (string in {'normal', 'linear', 'symmetric'}): desired
                 normalisation method. Supported options:
-                'standard': modifies each feature to an (mean 0, std 1) distribution
+                'standard': modifies each feature to a (mean 0, std 1) distribution
                 'linear': modifies each feature linearly taking [min, max] to
                          [0, 1]
                 'symmetric': modifies each feature linearly taking [min, max] to

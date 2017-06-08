@@ -58,12 +58,17 @@ ds = Dataset(base_dir + '/aux_files/iris_dataset.csv', 'classification', 'iris_d
 ds.to_one_hot_encoding()
 ds.normalise()
 
+#print(np.mean(ds._ds_inputs, axis=0))
+#ds._ds_inputs = ds._ds_inputs - np.mean(ds._ds_inputs)
+#print(np.mean(ds._ds_inputs, axis=0))
+
+exit(0)
 # splitting dataset: 60% training, 20% validation (implicit), 20% test.
 # (90, 30, 30) examples. No cross validation.
 ds.split(0.6, 0.2)
 
 # graph definition
-h_l = settings.HIDDEN_LAYERS
+h_l = st.HIDDEN_LAYERS
 
 if not h_l:
     raise ValueError()
